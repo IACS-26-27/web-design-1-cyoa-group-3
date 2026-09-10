@@ -1,0 +1,12 @@
+schema: "classroom50/repo-config/v1"
+classroom: "web-design-1"
+assignment: "cyoa"
+owner:
+  username: "carterbilawchuk"
+  id: 90728881
+  accepted_at: "2026-09-10T17:43:57Z"
+source:
+  owner: "iacs-26-27"
+  owner_id: 326979196
+  repo: "cyoa"
+  branch: "main"
