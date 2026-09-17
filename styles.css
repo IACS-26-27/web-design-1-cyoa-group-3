@@ -20,3 +20,7 @@ h1 {
   font-weight: bold;
   color: rgba(41, 223, 98, 0.662);
 }
+a:hover {
+  background-color: white;
+  font-size: 18px;
+}
