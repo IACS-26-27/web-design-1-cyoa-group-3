@@ -24,3 +24,6 @@ a:hover {
   background-color: white;
   font-size: 18px;
 }
+a {
+  color: bisque;
+}
