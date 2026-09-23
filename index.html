@@ -9,39 +9,64 @@
     />
     <title>My Choose-Your-Own Adventure!</title>
     <link rel="stylesheet" type="text/css" href="styles.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+    </style>
     <base href="./" />
+    <meta property="og:site_name" content="Create your own Adventure Game" />
+    <meta
+      property="“og:title”"
+      content="A site about an adventure game choosing between what food items to go to"
+    />
+    <meta
+      property="og:description"
+      content="Choose between going to the vegetable, baked goods, and meat products aisle and see what adventure awaits"
+    />
+    <meta property="og:url" content="replacethiswiththeurllater" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image:width" content="1280" />
+    <meta property="og:image:height" content="640" />
   </head>
   <body>
     <audio controls autoplay>
-  <source src="horse.ogg" type="audio/ogg">
-  <source src="horse.mp3" type="audio/mpeg">
-Your browser does not support the audio element.
-</audio>
-    <h1>Choose Your Own Adventure</h1>
-    <p>
+      <source src="horse.ogg" type="audio/ogg" />
+      <source src="horse.mp3" type="audio/mpeg" />
+      Your browser does not support the audio element.
+    </audio>
+    <h1 class="center">Choose Your Own Adventure</h1>
+    <p class="center">
       You walked down the store and there are aisles, which aisle do you go to?:
       <u>baked goods, vegetables, meat products</u>
     </p>
-    <table>
+    <table style="margin-left: auto; margin-right: auto; width: 100%">
       <tr>
         <th>Baked Goods $ per pound</th>
         <th>Vegetables $ per pound</th>
         <th>Meat Products $ per pound</th>
       </tr>
       <tr>
-        <td>5</td>
-        <td>6</td>
-        <td>7</td>
+        <td class="center">5</td>
+        <td class="center">6</td>
+        <td class="center">7</td>
       </tr>
       <tr>
-        <td>10</td>
-        <td>12</td>
-        <td>14</td>
+        <td class="center">10</td>
+        <td class="center">12</td>
+        <td class="center">14</td>
+      </tr>
+      <tr>
+        <td class="center">
+          <a href="baked_goods.html" class="link">Go to Baked Goods</a>
+        </td>
+        <td class="center">
+          <a href="vegetables.html" class="link">Go to Vegetables</a>
+        </td>
+        <td class="center">
+          <a href="meat_products.html" class="link">Go to Meat Products</a>
+        </td>
       </tr>
     </table>
-    <a href="baked_goods.html">Go to Baked Goods</a>
-    <a href="vegetables.html" style="padding: 30px">Go to Vegetables</a>
-    <a href="meat_products.html" style="padding: 30px">Go to Meat Products</a>
+
     <figure>
       <img
         src="./images/AISlop.png"
@@ -53,7 +78,6 @@ Your browser does not support the audio element.
     <hr />
     <small>
       <a href="citations.html">Citations</a>
-      <a href="page1.html">Page 1</a>
     </small>
   </body>
 </html>

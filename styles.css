@@ -1,5 +1,5 @@
 body {
-  width: 550px;
+  width: 750px;
   margin-left: auto;
   margin-right: auto;
   color: whitesmoke;
@@ -9,21 +9,34 @@ body {
   background-repeat: no-repeat; /* Prevents the image from tiling */
   min-height: 100vh; /* Ensures it takes up at least the full screen height */
   padding: 1em;
+  font-family: "Roboto", sans-serif;
 }
 p {
   font-size: 12pt;
-  font-family: cursive;
   color: azure;
+  font-family: "Roboto", sans-serif;
 }
 h1 {
   font-size: 48pt;
   font-weight: bold;
-  color: rgba(41, 223, 98, 0.662);
+  color: rgba(41, 223, 98, 1);
+  font-family: "Roboto", sans-serif;
 }
 a:hover {
-  background-color: white;
+  background-color: black;
   font-size: 18px;
+  font-family: "Roboto", sans-serif;
 }
 a {
   color: bisque;
+  font-family: "Roboto", sans-serif;
+}
+
+.link {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.center {
+  text-align: center;
 }
